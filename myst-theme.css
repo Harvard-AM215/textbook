@@ -1,0 +1,21 @@
+/* User Provided Stylesheet */
+
+/* Site CSS for the book theme. Wired up via `site.options.style` in myst.yml.
+ *
+ * Hide the frontmatter "Launch in external computing interface" button -- the rocket
+ * next to the download icon at the top of every chapter.
+ *
+ * It is not the in-browser Run button. That one is the power icon in the notebook
+ * toolbar (.myst-jp-nb-toolbar-power-btn), it comes from `jupyter: lite: true`, and it
+ * is the route the book actually tells readers to use. The rocket is a separate thing:
+ * the theme renders it whenever any thebe config exists, and it opens a modal that
+ * defaults to https://mybinder.org and asks the reader to supply a BinderHub or
+ * JupyterHub URL. We run no Binder and no hub, so with no `binder.repo` configured the
+ * modal cannot even build a launch URL -- submitting it does nothing. A button that
+ * looks like "run this" and silently fails is worse than no button, so it goes.
+ *
+ * If we ever stand up a hub, delete this rule and add the `binder` config instead.
+ */
+.myst-fm-launch-button {
+  display: none;
+}

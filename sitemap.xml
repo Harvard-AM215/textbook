@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/modeling-loop</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/mle</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/monte-carlo</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/tournaments</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/sec01-agent-setup</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/sec01-exercise</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/a-notation</loc>
+  </url>
+</urlset>
